@@ -1,0 +1,15 @@
+public class DecimalConversion {
+    public static void main(String[] args) {
+        int decimal = 100; // you can change this number
+
+        // Decimal to Binary
+        String binary = Integer.toBinaryString(decimal);
+
+        // Decimal to Octal
+        String octal = Integer.toOctalString(decimal);
+
+        System.out.println("Decimal Number: " + decimal);
+        System.out.println("Binary Equivalent: " + binary);
+        System.out.println("Octal Equivalent: " + octal);
+    }
+}
